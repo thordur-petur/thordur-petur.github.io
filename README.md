@@ -1,1 +1,0 @@
-# thordur-petur.github.io
