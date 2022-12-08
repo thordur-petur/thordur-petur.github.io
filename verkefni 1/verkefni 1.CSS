@@ -1,0 +1,18 @@
+body{
+    border:1px solid red
+}
+h1{
+    color: rgb(255, 122, 242);
+}
+em{
+    color: rgb(8, 0, 255);
+}
+strong{
+    color: rgb(167, 0, 0);
+}
+h2{
+    color: rgb(225, 255, 0);
+}
+a{
+    color: rgb(0, 251, 67);
+}
