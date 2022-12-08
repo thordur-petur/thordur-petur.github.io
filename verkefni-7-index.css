@@ -12,4 +12,6 @@ div{
     max-width: 80em;
     padding: 0 20px;
     margin: 1em auto;
+    display: grid;
+    grid-template-columns: 1fr;
 }
