@@ -1,0 +1,129 @@
+.box_2{
+    margin: 30px;
+    padding: 30px;
+    border: 5px solid red;
+    width: 1000px;
+    height: 200px;
+    
+}
+.h1_2{
+    margin: auto;
+    border: 3px solid greenyellow;
+    
+}
+.h1_3{
+    margin: auto;
+    border: 5px dashed blue;
+    padding: 20px;
+    
+}
+.ex1 {display: none;}
+.ex2 {display: inline;}
+.ex3 {display: block;}
+.ex4 {display: inline-block;}
+.liður2_1{
+    border: 3px dashed darkgreen;
+    margin: 1em;
+    padding: 1em;
+    display: block;
+}
+.liður2_2{
+    border: 3px dashed blue;
+    margin: 1em;
+    padding: 1em;
+    display: inline;
+}
+.liður2_3{
+    border: 3px dashed red;
+    margin: 1em;
+    padding: 1em;
+    display: inline-block;
+}
+.wrapper{
+    float: left;
+    border: 3px solid black;
+    padding: 1em;
+    width: 46%;
+}
+
+.img{
+    float: right;
+    margin: 1em;
+}
+.ekki{
+    background-color:yellow ;
+}
+.bigL {
+    float: left;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.group_2{
+    border: solid black;
+    padding: 1em;
+    width: 94.6%;
+}
+* {
+    box-sizing: border-box;
+}
+.body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow;
+    width: 40%; 
+}
+.raudur {
+	background-color: red;
+    width: 40%; 
+}
+.graenn {
+	background-color: lime;
+    width: 40%;
+}
+.blar {
+	background-color: cyan; 
+    width: 40%;
+}
+.box {
+	font-size: 1.2em;
+	height: 5em;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.col {
+    display: flex;
+    flex-flow:column-reverse ;
+}
+.gulur_2 {
+	background-color: yellow;
+    width: auto; 
+}
+.raudur_2 {
+	background-color: red;
+    width: auto; 
+}
+.graenn_2 {
+	background-color: lime;
+    width: auto;
+}
+.blar_2 {
+	background-color: cyan; 
+    width: auto;
+}

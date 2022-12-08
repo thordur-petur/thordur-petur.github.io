@@ -1,0 +1,95 @@
+.grid_container_1,  .grid_container_2,  .grid_container_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    border: 1px black solid;
+    gap: 1em;
+    height: auto;
+}
+@media  screen and (min-width:37.5em) {
+    .grid_container_1,  .grid_container_2,  .grid_container_3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 1em;
+            border: 1px black solid;
+            gap: 1em;
+            height: auto;
+    }
+}
+@media  screen and (min-width:48em) {
+    .grid_container_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em;
+        border: 1px black solid;
+        gap: 1em;
+        height: auto;
+    }
+    .grid_container_2{
+        display: grid;
+        grid-template-columns: (repeat(3,1fr));
+        padding: 1em;
+        border: 1px black solid;
+        gap: 1em;
+        height: auto;
+    }
+    .grid_container_3{
+        display: grid;
+        grid-template-columns: (repeat(4,1fr));
+        padding: 1em;
+        border: 1px black solid;
+        gap: 1em;
+        height: auto;
+    }
+    
+}
+@media  screen and (min-width:60em) {
+.grid_container_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    border: 1px black solid;
+    gap: 1em;
+    height: auto;
+}
+.grid_container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px black solid;
+    padding: 1em;
+    gap: 1em;
+    height: auto;
+}
+.grid_container_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    border: 1px black solid;
+    gap: 1em;
+    height: auto;
+}
+.grid_container_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+    border: 1px black solid;
+    gap: 1em;
+    height: auto;
+}
+.grid_container_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px black solid;
+    padding: 1em;
+    gap: 1em;
+    height: auto;
+}
+.grid_container_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    border: 1px black solid;
+    gap: 1em;
+    height: auto;
+}
+}
